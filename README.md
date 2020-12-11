@@ -15,4 +15,5 @@ Once the Relay Proxy is up and running, curl the relay to test the connection (s
 - Run `docker-compose up` inside the directory
 - To test the endpoint `curl -X REPORT 127.0.0.1:8030/sdk/eval/user -H "Authorization: YOUR-SDK-KEY-HERE" -H "Content-Type: application/json" -d '{"key": "a00ceb", "email":"barnie@example.org"}' | jq '.'`
 
-https://github.com/BrianJayChung/ld-relay-demo/blob/main/example.png
+![example](https://user-images.githubusercontent.com/17419302/101868772-e9180080-3b32-11eb-84cc-0a46e12cc1ff.png)
+
