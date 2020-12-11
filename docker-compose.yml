@@ -1,0 +1,9 @@
+services:
+  ld-relay:
+    image: launchdarkly/ld-relay
+    ports:
+      - "8030:8030"
+    environment:
+      - FILE_DATA_SOURCE=/cache/data.tar.gz
+    volumes:
+      - ./:/cache
